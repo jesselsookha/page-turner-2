@@ -1,0 +1,48 @@
+import { Book } from '../types/book';
+
+export const MOCK_BOOKS: Book[] = [
+  {
+    id: '1',
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    genre: 'Self help',
+    pages: 320,
+    status: 'Completed',
+    rating: 5,
+    isFavorite: true,
+    dateAdded: '2026-09-15',
+  },
+  {
+    id: '2',
+    title: 'Project Hail Mary',
+    author: 'Andy Weir',
+    genre: 'Science fiction',
+    pages: 496,
+    status: 'Completed',
+    rating: 5,
+    isFavorite: true,
+    dateAdded: '2026-09-20',
+  },
+  {
+    id: '3',
+    title: 'The Clean Coder',
+    author: 'Robert C. Martin',
+    genre: 'Textbook',
+    pages: 256,
+    status: 'Completed',
+    rating: 4,
+    isFavorite: false,
+    dateAdded: '2026-09-28',
+  },
+  {
+    id: '4',
+    title: 'Dune',
+    author: 'Frank Herbert',
+    genre: 'Science fiction',
+    pages: 688,
+    status: 'Currently Reading',
+    rating: 4,
+    isFavorite: false,
+    dateAdded: '2026-10-01',
+  },
+];
